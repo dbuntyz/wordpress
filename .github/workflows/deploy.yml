@@ -20,10 +20,9 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_TARGET_DIR }}
-          concurrent-uploads: 1
           local-dir: './'
-          protocol: ftps
+          protocol: ftp
           port: 21
-          passive: true
           dry-run: false
           dangerous-clean-slate: false
+          log-level: verbose
