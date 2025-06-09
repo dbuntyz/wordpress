@@ -25,3 +25,5 @@ jobs:
           protocol: ftps
           port: 21
           passive: true
+          dry-run: false
+          dangerous-clean-slate: false
